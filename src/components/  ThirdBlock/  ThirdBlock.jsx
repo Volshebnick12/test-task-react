@@ -51,7 +51,7 @@ function ThirdBlock() {
                 </>;
 
   if (showMode) {
-    (content = (
+    content = (
       <>
         <ul className={Styles.skills_hard}>
           <motion.li custom={3} variants={AnimationFirst}  className={Styles.item}>
@@ -84,7 +84,6 @@ function ThirdBlock() {
         </ul>
       </>
     )
-    )
   };
 
   return (
@@ -96,8 +95,8 @@ function ThirdBlock() {
       <motion.h2 custom={1} variants={AnimationFirst} className={Styles.title}>Что тебе даст прохождение курса?</motion.h2>
       <div className={Styles.skills}>
         <motion.div custom={2} variants={AnimationFirst} className={Styles.skills_button}>
-          <button onClick={ hardClick } className={Styles.skills_list_1}>Skills upgade</button>
-          <button onClick={ hardClick } className={Styles.skills_list_2}>Strong hard skills</button>
+          <button onClick={ hardClick } className={showMode ? Styles.skills_list_1 : Styles.skills_list_2}>Skills upgade</button>
+          <button onClick={ hardClick } className={!showMode ? Styles.skills_list_1 : Styles.skills_list_2}>Strong hard skills</button>
         </motion.div>
         {content}
         

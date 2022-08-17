@@ -26,8 +26,15 @@ module.exports = {
       'xxxl': '1920px',
       // => @media (min-width: 1920px) { ... }
     },
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      keyframes: {
+        wiggle: {
+          '0%': {  opacity: '0', transform: 'ranslateY(-200px)' },
+          '50%': { opacity: '1' },
+          '100%': { transform: 'translate(0)' }
+        }
+      }
+    },
+    plugins: [],
+  }
 }
-
