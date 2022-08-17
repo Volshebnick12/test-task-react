@@ -1,13 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Golos';
+  src: url('./fonts/Golos-Text_Regular.css');
+  src: local('☺'), url('./fonts/Golos-Text_Regular.html') format('html'), url('./fonts/Golos-Text_Regular.woff') format('woff'), url('./fonts/Golos-Text_Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('./fonts/Golos-Text_Medium.css');
+  src: local('☺'), url('./fonts/Golos-Text_Medium.html') format('html'), url('./fonts/Golos-Text_Regular.woff') format('woff'), url('./fonts/Golos-Text_Regular.woff2') format('woff2');
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('./fonts/Golos-Text_DemiBold.css');
+  src: local('☺'), url('./fonts/Golos-Text_DemiBold.html') format('html'), url('./fonts/Golos-Text_DemiBold.woff') format('woff'), url('./fonts/Golos-Text_DemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: semi-bold;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('./fonts/Golos-Text_Bold.css');
+  src: local('☺'), url('./fonts/Golos-Text_Bold.html') format('html'), url('./fonts/Golos-Text_Bold.woff') format('woff'), url('./fonts/Golos-Text_Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('./fonts/Golos-Text_Black.css');
+  src: local('☺'), url('./fonts/Golos-Text_Black.html') format('html'), url('./fonts/Golos-Text_Black.woff') format('woff'), url('./fonts/Golos-Text_Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: heavy;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  h1: 0;
+  h2: 0;
+  h3: 0;
+  h4: 0;
+  h5: 0;
+  h6: 0;
+  p: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Golos',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

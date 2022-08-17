@@ -1,0 +1,89 @@
+.wraper {
+  @apply flex flex-col items-center relative
+  2xl:ml-[0]
+  xl:ml-[400px]
+  lg:ml-[500px]
+  md:ml-[600px]
+  xs:ml-[600px]
+  xs:mt-0
+  xs:mt-[30px];
+}
+
+.title {
+  @apply font-semibold w-[1073px] font-['Golos'] font-bold text-[42px] leading-[130%] text-[#0F1214] mt-[51px] mb-[40] 2xl:text-[54px] 2xl:mb-[40px]
+  2xl:ml-[0]
+  xl:mb-[30px]
+  xl:ml-[223px]
+  lg:ml-[500px]
+  md:ml-[600px]
+  xs:ml-[100px];
+}
+
+.question {
+  @apply bg-[url('/public/image/svg/question.svg')] w-[27px] h-[26px] absolute top-[76px]
+  xxxl:left-[375px]
+  2xl:left-[260px]
+  xl:left-[-40px]
+  lg:left-[-70px]
+  md:left-[-200px]
+  xs:left-[-550px]
+  xs:top-[68px];
+}
+
+.text {
+  @apply text-[24px] font-normal leading-[140%] text-[#0F1214] font-['Golos'] tracking-[0.005em] mb-[60px] text-center
+  xl:ml-[0]
+  lg:ml-[200px]
+  md:ml-[300px]
+  md:w-[970px]
+  xs:ml-[-100px]
+  xs:w-[800px];
+}
+
+.block1 {
+  @apply border-[1px] border-[#947EFF] w-[324px] shadow-[0px_5px_20px_rgba(0,0,0,0.06)] shadow-[0px_24px_160px_rgba(0,0,0,0.02)] px-[20px] py-[24px] rounded-[14px] leading-[170%] font-['Golos'] font-normal absolute top-[423px] bg-white
+  xxxl:left-[180px]
+  2xl:left-[77px]
+  lg:left-[-332px]
+  md:left-[-500px]
+  md:text-[14px]
+  xs:text-[16px]
+  xs:left-[-550px];
+}
+
+.title_block {
+  @apply font-semibold font-['Golos'] leading-[140%] text-[#9088FF] uppercase pb-[14px]
+  md:text-[14px]
+  xs:text-[16px];
+}
+
+.text_bock {
+  @apply text-[14px] leading-[170%] font-['Golos'] font-normal;
+}
+
+.block2 {
+  @apply bg-[url('/public/image/img2.jpg')] w-[806px] h-[618px] bg-inherit bg-no-repeat
+  xl:ml-[0]
+  lg:ml-[200px]
+  md:ml-[200px];
+}
+
+.block3 {
+  @apply border-[1px] border-[#947EFF] w-[361px] shadow-[0px_5px_20px_rgba(0,0,0,0.06)] shadow-[0px_24px_160px_rgba(0,0,0,0.02)] px-[20px] py-[24px] rounded-[14px] leading-[170%] font-['Golos'] font-normal absolute bottom-[110px] bg-white
+  xxxl:right-[310px]
+  2xl:right-[178px]
+  xl:right-[-212px]
+  lg:right-[-570px]
+  md:right-[-800px]
+  md:text-[14px]
+  xs:text-[16px]
+  xs:right-[-350px];
+}
+
+.text_students {
+  @apply text-[13px] font-normal w-[970px] leading-[150%] text-[#0F1214] font-['Golos'] mb-[89px] mt-[16px] text-center;
+}
+
+.black {
+  @apply font-semibold;
+}

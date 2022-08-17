@@ -1,0 +1,55 @@
+.wraper {
+  @apply bg-[#0F1214] rounded-[20px] h-[640px] my-[89px]
+  xxxl:w-[1860px]
+  xxxl:mx-[auto]
+  md:w-[1600px]
+  md:ml-[80px]
+  xs:w-[900px]
+  xs:ml-[50px];
+}
+
+.title {
+  @apply font-bold font-['Golos'] leading-[130%] text-[#ffffff] text-center mb-[40px]
+  2xl:text-[54px]
+  2xl:pt-[123px]
+  md:pt-[100px]
+  md:text-[48px]
+  xs:text-[45px]
+  xs:pt-[80px];
+}
+
+.skills_button {
+  @apply mb-[108px];
+}
+
+.skills {
+  @apply flex flex-col items-center justify-center mb-[108px] mx-[auto];
+}
+
+.skills_list_1 {
+  @apply font-semibold font-['Golos'] text-[24px] leading-[130%] text-[#ffffff] opacity-[1] uppercase p-0 mr-[40px];
+}
+
+.skills_list_2 {
+  @apply font-semibold font-['Golos'] text-[24px] leading-[130%] text-[#ffffff] opacity-[0.5] uppercase p-0 mr-[40px];
+}
+
+.item {
+  @apply flex flex-col justify-center items-center mr-[50px]
+  md:w-[430px]
+  xs:w-[200px];
+}
+
+.text {
+  @apply font-medium font-['Golos'] leading-[130%] text-[#ffffff] mt-[30px]
+  2xl:text-[22px]
+  md:text-[18px];
+}
+
+.skills_update {
+  @apply inline-flex justify-between;
+}
+
+.skills_hard {
+  @apply inline-flex justify-between;
+}
